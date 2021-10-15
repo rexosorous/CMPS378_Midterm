@@ -1,4 +1,4 @@
-# CMPS378 Assignment #4: Birthday Date Meaning Generator
+# CMPS378 Midterm: Rigby Restaurant
 ### Submitted By: J-Zach Loke
 
 # Description
