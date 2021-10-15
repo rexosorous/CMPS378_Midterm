@@ -1,0 +1,63 @@
+method getOrder(string question, ref char[] orders):
+    print questiont
+    orders.Resize(Length+1)
+    orders[-1] = user response
+
+orders = new char array
+print menu
+while True:
+    getOrder("Choose your Food", orders)
+    getOrder("Choose your Drink", orders)
+    getOrder("Do you want Desserts?", orders)
+    if (orders[-1] == 'Y'):
+        getOrder("Choose your Dessert", orders)
+
+    print "Another Order?"
+    if user response == 'N':
+        break
+
+
+int total = 0
+print "Your order was:"
+for (int i = 0; i < orders.Length; ++i):
+    switch (orders[i]):
+        case 'P':
+            Console.WriteLine("Pizza for $20")
+            total += 20
+        case 'C':
+            Console.WriteLine("Chicken for $15")
+            total += 15
+        case 'S':
+            Console.WriteLine("Spaghetti for $25")
+            total += 25
+
+    switch (orders[++i]):
+        case 'S':
+            Console.WriteLine("Sprite for $5")
+            total += 5
+        case 'C':
+            Console.WriteLine("Coke for $4")
+            total += 4
+        case 'M': dew
+            Console.WriteLine("Mountain Dew for $3")
+            total += 3
+
+    if (orders[++i] == 'Y'):
+        switch (orders[++i]):
+            case 'I': cream
+                Console.WriteLine("Ice Cream for $10")
+                total += 10
+            case 'P':
+                Console.WriteLine("Pie for $12")
+                total += 12
+            case 'C': roll
+                Console.WriteLine("Cinnamon Roll for $8")
+                total += 8
+
+print "Your total is $" + total
+
+cookieQuotes = new string array
+fill cookieQuotes with 10 fortune cookie quotes
+int quoteNum = generate a random number between 1 and 10
+print cookieQuotes[quoteNum]
+print "Thanks for dining with us."
